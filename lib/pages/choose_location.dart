@@ -10,8 +10,6 @@ class ChooseLocation extends StatefulWidget {
 }
 
 class _ChooseLocationState extends State<ChooseLocation> {
-
-
   @override
   Widget build(BuildContext context) {
     print('build function ran');
@@ -25,8 +23,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
       ),
       body: ElevatedButton(
         onPressed: () {
-          setState(() {
-          });
+          setState(() {});
         },
         child: const Text('counter is'),
       ),
